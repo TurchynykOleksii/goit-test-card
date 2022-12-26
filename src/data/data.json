@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "user": "Elon Reeve Musk",
+    "tweets": 777,
+    "followers": 100500,
+    "avatar": "https://pyxis.nymag.com/v1/imgs/556/999/ff914520dde3554de70d636232eccb99e9-07-elon-musk-smoking-weed.rhorizontal.w700.jpg",
+    "isFollow": false
+  }
+]

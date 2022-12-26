@@ -1,0 +1,116 @@
+.card {
+  margin: 40px auto;
+  position: relative;
+  padding-top: 38px;
+  padding-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 454px;
+  background: linear-gradient(
+    114.99deg,
+    #471ca9 -0.99%,
+    #5736a3 54.28%,
+    #4b2a99 78.99%
+  );
+  box-shadow: -3px 8px 24px rgba(0, 0, 0, 0.23);
+  border-radius: 24px;
+}
+.logo {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+.avatar {
+  width: 72px;
+  height: 72px;
+}
+
+.tweets,
+.followers {
+  margin-right: 5px;
+}
+
+.avatarContainer {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  overflow: hidden;
+
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06), inset 0px -2px 4px #ae7be3,
+    inset 0px 4px 3px #fbf8ff; */
+}
+.avatarContainer:after {
+  content: '';
+  position: absolute;
+  width: 86px;
+  height: 86px;
+  background-color: #ebd8ff;
+  border-radius: 50%;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06), inset 0px -2px 4px #ae7be3,
+    inset 0px 4px 3px #fbf8ff;
+}
+.avatarContainer:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background-color: #ebd8ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06), inset 0px -2px 4px #ae7be3,
+    inset 0px 4px 3px #fbf8ff;
+}
+
+.avatarContainer img {
+  position: relative;
+  object-fit: cover;
+  z-index: 999;
+}
+
+.userInfoContainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user {
+  margin-bottom: 20px;
+}
+.tweets,
+.followers,
+.user {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.followers {
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+
+.button {
+  padding: 16px 66px;
+  text-transform: uppercase;
+  color: #373737;
+  font-size: 20px;
+  background: #ebd8ff;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.active {
+  background: #5cd3a8;
+}
