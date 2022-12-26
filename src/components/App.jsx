@@ -35,7 +35,6 @@ export class App extends Component {
   };
 
   render() {
-    console.log(this.state.data);
     return (
       <>
         <Card handleButton={this.handleBtn} stateInfo={this.state} />
