@@ -6,7 +6,6 @@ export const Card = ({ handleButton, stateInfo }) => {
   const {
     data: { avatar, user, followers, tweets, isFollow },
   } = stateInfo;
-  console.log(isFollow);
   let updateFollower = isFollow ? followers + 1 : followers;
   return (
     <div className={css.card}>
