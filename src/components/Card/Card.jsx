@@ -9,10 +9,7 @@ export const Card = ({ handleButton, stateInfo }) => {
   let updateFollower = isFollow ? followers + 1 : followers;
   return (
     <div className={css.card}>
-      <div className={css.logo}>
-        <img src={logo} alt="logo" />
-      </div>
-      <div className="asdasda">
+      <div className="background">
         <img src={bg} alt="background" />
       </div>
       <div className={css.userInfoContainer}>
